@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    background: rgb(86, 86, 138);
+    height: 60px;
+    width: 100%;
+
+}
+
+.search {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    width: 165px;
+    height: 33px;
+    ;
+}
+
+label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    padding: -1 62px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    /* text-transform: uppercase; */
+}
+
+a.active,
+a:hover {
+    background: #7a8289;
+    transition: .5s;
+}
+
+.Box1 {
+    background-color: bisque;
+    height: 236px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-left: 158px;
+    color: darkred;
+}
+
+.cloud {
+    width: 400px;
+    height: 193px;
+}
+
+.pp {
+    margin-top: -163px;
+    margin-left: 47px;
+    color: black;
+}
+
+.w {
+    margin-top: 17px;
+    margin-left: 47px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 26px;
+}
+
+
+
+.e {
+    margin-top: -59px;
+    margin-left: 211px;
+}
+
+.h {
+    margin-top: 9px;
+    margin-left: 211px;
+}
+
+.k {
+    margin-top: 7px;
+    margin-left: 211px;
+}
+
+.date {
+    color: antiquewhite;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.topic {
+    color: #8e3838;
+}
+
+/* .tbl {
+    border: 2px solid rgb(121, 31, 31);
+    width: 30%;
+    background-color: black;
+    border-style: double;
+    margin-top: 55px;
+    margin-left: 54px;
+}
+.tbl div{
+    background-color: black;
+}
+
+tr {
+    color: antiquewhite;
+}
+
+.tbltr:nth-child(even):hover{
+    background-color: lightblue;
+    transform: scale(1.09);
+    transition: transform 300ms ease-in;
+} */
+
+table{
+    width: 30%;
+}
+
+table div{
+    background-color: blueviolet;
+    color: white;
+    margin: 3%;
+    height: 35px;
+    padding: 2%;
+    border-radius: 10px;
+}
+table div:hover{
+    border: 1px solid white;
+}
