@@ -127,33 +127,13 @@ h3 {
     color: #8e3838;
 }
 
-/* .tbl {
-    border: 2px solid rgb(121, 31, 31);
-    width: 30%;
-    background-color: black;
-    border-style: double;
-    margin-top: 55px;
-    margin-left: 54px;
-}
-.tbl div{
-    background-color: black;
-}
 
-tr {
-    color: antiquewhite;
-}
-
-.tbltr:nth-child(even):hover{
-    background-color: lightblue;
-    transform: scale(1.09);
-    transition: transform 300ms ease-in;
-} */
-
-table{
+table {
+    margin-top: 50px;
     width: 30%;
 }
 
-table div{
+table div {
     background-color: blueviolet;
     color: white;
     margin: 3%;
@@ -161,6 +141,26 @@ table div{
     padding: 2%;
     border-radius: 10px;
 }
-table div:hover{
+
+table div:hover {
     border: 1px solid white;
+}
+
+.map1 {
+    margin-left: 337px;
+    margin-top: -324px;
+}
+
+.box3 {
+    background-color: rgb(44, 56, 56);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.footer1 {
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 1%;
+    
 }
