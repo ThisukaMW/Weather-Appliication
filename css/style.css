@@ -162,5 +162,10 @@ table div:hover {
     margin-left: 400px;
     position: absolute;
     margin-top: 1%;
+}
+
+.sun {
     
+    height: 22px;
+    width: 25px;
 }
