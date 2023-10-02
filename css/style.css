@@ -74,18 +74,24 @@ h3 {
 
 .cloud {
     width: 400px;
-    height: 193px;
+    height: 199px;
 }
 
 .pp {
     margin-top: -163px;
     margin-left: 47px;
-    color: black;
+    color: wheat;
+}
+
+#loc {
+    margin-left: 158px;
+    font-style: italic;
 }
 
 .w {
     margin-top: 17px;
     margin-left: 47px;
+    color: wheat;
 }
 
 .logo {
@@ -99,16 +105,19 @@ h3 {
 .e {
     margin-top: -59px;
     margin-left: 211px;
+    color: wheat;
 }
 
 .h {
     margin-top: 9px;
     margin-left: 211px;
+    color: wheat;
 }
 
 .k {
     margin-top: 7px;
     margin-left: 211px;
+    color: wheat;
 }
 
 .date {
@@ -165,7 +174,20 @@ table div:hover {
 }
 
 .sun {
-    
+
     height: 22px;
     width: 25px;
+}
+
+.history-space div {
+    justify-content: space-between;
+}
+
+
+
+.btn-search {
+    color: white;
+    background-color: rgb(132, 37, 37);
+    border: 10px;
+    border-radius: 3px;
 }
