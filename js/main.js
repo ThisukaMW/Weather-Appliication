@@ -31,7 +31,7 @@ function searchLocation(location) {
     // let icon = document.getElementById("icon");
     let temp = document.getElementById("temp-txt");
     // let locationName = document.getElementById("locationName");
-    let country = document.getElementById("country");
+    let countryName = document.getElementById("country");
     let cond = document.getElementById("condition");
     let precipitation = document.getElementById("precipitation");
     let humidity = document.getElementById("Humidity");
@@ -54,7 +54,7 @@ function searchLocation(location) {
 
 
             // locationName.innerHTML = data.location.tz_id;
-            country.innerHTML = data.location.country;
+            countryName.innerHTML = data.location.country;
             // city.innerHTML = data.location.name;
         }
     })
